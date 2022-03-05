@@ -1,0 +1,91 @@
+
+.topbar {
+    position: fixed;
+    width: 100%;
+    padding: 8px 15px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.topbar .company {
+    color: #fff;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: -0.6px;
+}
+
+.topbar .user-img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 5px #fff;
+    margin-left: 12px;
+}
+
+.topbar .user-name {
+    margin: auto;
+    font-weight: 500;
+}
+.sidebar {
+    position: fixed;
+    top: 55px;
+    width: 180px;
+    height: 100%;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+.sidebar-hide .sidebar {
+    left: -180px;
+}
+
+.sidebar .sidebar-inner {
+    padding: 8px 12px;
+}
+
+.sidebar .logo {
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.sidebar .menu-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: left;
+}
+
+.sidebar .menu-list a {
+    color: #fff;
+    display: block;
+    padding: 5px 5px 5px 10px;
+    margin-bottom: 1px;
+}
+.sidebar .menu-list a.active {
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+.sidebar .menu-list a:hover {
+    background: #007bff;
+    text-decoration: none;
+}
+.toggle-sidebar-btn {
+    display: inline-block;
+    color: #fff;
+    height: 28px;
+    width: 28px;
+    cursor: pointer;
+}
+.site-content {
+    padding-left: 195px;
+    padding-top: 71px;
+    transition: 0.3s ease-in-out;
+}
+.sidebar-hide .site-content {
+    padding-left: 15px;
+}
+/* Header Style */
