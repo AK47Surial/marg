@@ -89,3 +89,9 @@
     padding-left: 15px;
 }
 /* Header Style */
+
+/* Add Medicine Style */
+.form-control:focus{
+    box-shadow: none;
+}
+/* Add Medicine Style */

@@ -35,13 +35,13 @@
                     <img src="images/user.jpg" alt="Maurya Medical Store">
                 </div>
                 <div class="username">
-
+                      
                 </div>
                 <ul class="menu-list">
                     <li><a href="dashboard" class="active"><span class="icon fa-dashboard"></span>Dashboard</a></li>
-                    <li><a href="sell-product"><span class="icon fa-dashboard"></span>Sell</a></li>
-                    <li><a href="add-medicine"><span class="icon fa-dashboard"></span>Add Medicine</a></li>
-                    <li><a href="history"><span class="icon fa-dashboard"></span>History</a></li>
+                    <li><a href="sell-product"><span class="icon fa-rupee"></span>Sell</a></li>
+                    <li><a href="add-medicine"><span class="icon fa-medkit"></span>Add Medicine</a></li>
+                    <li><a href="history"><span class="icon fa-file-text"></span>History</a></li>
                 </ul>
             </div>
         </div>
